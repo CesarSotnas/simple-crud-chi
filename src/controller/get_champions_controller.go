@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/CesarSotnas/simple-crud-chi/src/helpers"
 	"github.com/CesarSotnas/simple-crud-chi/src/internal"
-	"github.com/CesarSotnas/simple-crud-chi/src/internal/helpers"
 )
 
 type championsRotationsController struct {

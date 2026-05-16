@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/CesarSotnas/simple-crud-chi/src/internal"
-	"github.com/CesarSotnas/simple-crud-chi/src/internal/models"
+	"github.com/CesarSotnas/simple-crud-chi/src/models"
 )
 
 type championsRotationsService struct {

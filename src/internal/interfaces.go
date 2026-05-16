@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/CesarSotnas/simple-crud-chi/src/internal/models"
+	"github.com/CesarSotnas/simple-crud-chi/src/models"
 )
 
 type ChampionsRotationServiceInterface interface {
