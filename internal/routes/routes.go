@@ -1,4 +1,4 @@
-package paths
+package routes
 
 const (
 	basePath                 string = "/lolchampionstatus/v1"

@@ -4,15 +4,15 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/CesarSotnas/simple-crud-chi/src/helpers"
-	"github.com/CesarSotnas/simple-crud-chi/src/internal"
+	"github.com/CesarSotnas/simple-crud-chi/internal/helpers"
+	"github.com/CesarSotnas/simple-crud-chi/internal/ports"
 )
 
 type championsRotationsController struct {
-	championsRotationService internal.ChampionsRotationServiceInterface
+	championsRotationService ports.ChampionsRotationServiceInterface
 }
 
-func NewChampionsRotationsController(championsRotationService internal.ChampionsRotationServiceInterface) championsRotationsController {
+func NewChampionsRotationsController(championsRotationService ports.ChampionsRotationServiceInterface) championsRotationsController {
 	return championsRotationsController{
 		championsRotationService: championsRotationService,
 	}
